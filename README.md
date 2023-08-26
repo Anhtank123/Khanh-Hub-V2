@@ -1,4 +1,4 @@
-local Khanh Hub = Instance.new("ScreenGui")
+local LoliHub = Instance.new("ScreenGui")
 local Open = Instance.new("TextButton")
 local fuckshit = Instance.new("UICorner")
 local MODILEMAGE = Instance.new("ImageLabel")
@@ -6,12 +6,12 @@ local posto = Instance.new("UIStroke")
 
 fuckshit.Parent = Open
 
-Khanh Hub.Name = "Khanh Hub"
-Khanh Hub.Parent = game.CoreGui
-Khanh Hub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LoliHub.Name = "LoliHub"
+LoliHub.Parent = game.CoreGui
+LoliHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Open.Name = "Open"
-Open.Parent = Khanh Hub
+Open.Parent = LoliHub
 Open.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Open.BorderSizePixel = 0.5
 Open.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
@@ -535,7 +535,7 @@ local Hub1 = Instance.new("TextLabel")
 	BindButton.Position = UDim2.new(0.865561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.Code
-	BindButton.Text = "[Pupsiki]"
+	BindButton.Text = "[Khanh]"
 	BindButton.TextColor3 = Color3.fromRGB(51,255,255)
 	BindButton.TextSize = 14.000
 	BindButton.Visible = true
@@ -1826,7 +1826,7 @@ end
 	return uitab
 end
  --------------------------------------------------------------------
- local Library = Update:Window("LOLI");
+ local Library = Update:Window("KHANH");
  --------------------------------------------------------------------
      if game.PlaceId == 2753915549 then
         World1 = true
@@ -2935,7 +2935,7 @@ end
     end)
     
     --------------------------------------------------------------------
-    local Library = Update:Window("LOLI");
+    local Library = Update:Window("KHANH");
     --------------------------------------------------------------------
     local Main = Library:Tab("Main","rbxassetid://6026568198")
 local Setting = Library:Tab("Settings","rbxassetid://6034509993")
@@ -3426,7 +3426,7 @@ end)
         end
     end)
     
-Update:Notification("Hello, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome Khanh Hub V2! What's new? | [+] New Ui [+] New Functions [+] Fix Some Bugs [+] Optimise Script [+] Much More... ")
+Update:Notification("Hello, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome KhanhHub V2! What's new? | [+] New Ui [+] New Functions [+] Fix Some Bugs [+] Optimise Script [+] Much More... ")
     
     Main:Seperator("? Main")
    
